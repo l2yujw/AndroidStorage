@@ -1,4 +1,4 @@
-package com.ryu.difference_check
+package com.ryu.androidstorage.basic
 
 class ClassCheck (var name: String){//주 생성자의 매개변수는 var val을 통해 값을 받는 동시에 클래스의 멤버 변수로 활용 가능하다
     var count = 0
@@ -27,7 +27,7 @@ open class Super(name: String){// 상속할 수 있게 선언하기 위해 open 
 }
 class Sub(name: String): Super(name){
 }
-class SubCon: Super{
+class SubCon: Super {
     constructor(name: String): super(name){
     }
 }
@@ -104,6 +104,6 @@ fun main(){
     obj.some()
 
 
-    MyClass.data=20
+    MyClass.data =20
     MyClass.some()
 }

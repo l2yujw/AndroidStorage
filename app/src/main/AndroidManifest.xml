@@ -21,6 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".layouts.Menu"
+            android:exported="false" />
+        <activity
+            android:name=".layouts.Widget"
+            android:exported="false" />
+        <activity
+            android:name=".layouts.Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".layouts.StopWatch"
+            android:exported="false" />
+        <activity
+            android:name=".layouts.layout_case"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.ryu.difference_check
+package com.ryu.androidstorage.basic
 
 class Basic {
 

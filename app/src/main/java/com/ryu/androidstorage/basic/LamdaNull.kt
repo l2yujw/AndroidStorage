@@ -1,6 +1,4 @@
-package com.ryu.difference_check
-
-import com.ryu.difference_check.MyClass.Companion.data
+package com.ryu.androidstorage.basic
 
 class LamdaNull {
 }
@@ -21,7 +19,7 @@ fun main(){
     }
     println("${some3(10, 20)}")
 
-    val someFun: MyFunType = {no1: Int, no2: Int -> no1 > no2} // no1 no2 타입 생략 가능
+    val someFun: MyFunType = { no1: Int, no2: Int -> no1 > no2} // no1 no2 타입 생략 가능
     println(someFun(10,20))
 
 

@@ -1,12 +1,12 @@
-package com.ryu.difference_check
+package com.ryu.androidstorage.layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ryu.androidstorage.R
 
-class MainActivity : AppCompatActivity() {
+class Widget : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_widget)
     }
 }
